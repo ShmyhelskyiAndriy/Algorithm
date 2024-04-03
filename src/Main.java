@@ -9,11 +9,17 @@ public class Main {
 
         System.out.println(Arrays.toString(array));
 
-        long time = System.currentTimeMillis();
-        outArray = CountingSort.countSortWithNegatives(array);
-        System.out.println(System.currentTimeMillis() - time);
+//        long time = System.currentTimeMillis();
+//        MergeSort.mergeSort(array);
+//        System.out.println(System.currentTimeMillis() - time);
+//
+//        System.out.println(Arrays.toString(array));
 
-        System.out.println(Arrays.toString(outArray));
 
+        RadixSort.radixSort(array);
+        System.out.println(Arrays.toString(array));
+//
+//        QuickSort.quickSortNeg(array, 0, array.length - 1);
+//        System.out.println(Arrays.toString(array));
     }
 }
