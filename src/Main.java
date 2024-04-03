@@ -16,10 +16,13 @@ public class Main {
 //        System.out.println(Arrays.toString(array));
 
 
-        RadixSort.radixSort(array);
-        System.out.println(Arrays.toString(array));
+//        RadixSort.radixSort(array);
+//        System.out.println(Arrays.toString(array));
 //
 //        QuickSort.quickSortNeg(array, 0, array.length - 1);
 //        System.out.println(Arrays.toString(array));
+
+//        System.out.println(Arrays.toString(CountingSort.countSortWithNegatives(array)));
+
     }
 }
