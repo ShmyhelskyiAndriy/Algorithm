@@ -1,50 +1,91 @@
+
+
+
+
 import java.util.Arrays;
-import java.util.Random;
+
+import java.util.Queue;
 
 public class Main {
     public static void main(String[] args) {
 
-        int [] array = new int[10];
-
-        Util.filling(array);
-//        Util.filling(outArray);
-        int [] outArray = Arrays.copyOf(array,array.length);
-
-//        System.out.println(Arrays.toString(array));
-//        System.out.println(Arrays.toString(outArray));
-
-
-        long time = System.currentTimeMillis();
-        QuickSort.quickSortMid(array,1,10);
-        System.out.println("Quick:" + (System.currentTimeMillis() - time));
-        System.out.println(Arrays.toString(array));
-
-
-
-
-
-
-
-
-//        System.out.println(Arrays.toString(CountingSort.countSortWithNegatives(array)));
-
-
-//        SelectionSort.selecSort(array);
+//        int [] array = new int[100];
 //
-//        BubbleSort.bubbleSort(outArray);
-
+//        Util.filling(array);
+//
+//        System.out.println("Unsorted array:");
+//        System.out.println(Arrays.toString(array.clone()));
+//
+//        long time;
+//
+//        // Сортування з опорою на останній елемент
 //        time = System.currentTimeMillis();
-//        QuickSort.quickSortMid(array, 0, array.length - 1);
-////        System.out.println(Arrays.toString(array));
-//        System.out.println("mid:" + (System.currentTimeMillis() - time));
+//        int [] arrayLast = array.clone();
+//        QuickSort.quickSortLast(arrayLast, 0, array.length - 1);
+//        System.out.println("\nСортування з опорою на останній елемент: \n" + "час" + (System.currentTimeMillis() - time));
+//        System.out.println(Arrays.toString(arrayLast));
 //
 //
-//        long time = System.currentTimeMillis();
-//        QuickSort.quickSortMid(outArray, 0, array.length - 1);
-//        System.out.println(Arrays.toString(outArray));
-//        System.out.println("rand:" + (System.currentTimeMillis() - time));
+//        // Сортування з опорою на середній елемент
+//        time = System.currentTimeMillis();
+//        int [] arrayMid = array.clone();
+//        QuickSort.quickSortMid(arrayMid, 0, array.length - 1);
+//        System.out.println("\nСортування з опорою на середній елемент: \n" + "час" + (System.currentTimeMillis() - time));
+//        System.out.println(Arrays.toString(arrayMid));
+//
+//        // Сортування з опорою на випадковий елемент
+//        time = System.currentTimeMillis();
+//        int [] arrayRand = array.clone();
+//        QuickSort.quickSortRandom(arrayRand, 0, array.length - 1);
+//        System.out.println("\nСортування з опорою на випадковий елементт: \n" + "час" + (System.currentTimeMillis() - time));
+//        System.out.println(Arrays.toString(arrayRand));
 
-//        System.out.println(Arrays.toString(CountingSort.countSortWithNegatives(array)));
 
+
+
+//        Stack<Integer> stack = new Stack<>();
+//        stack.push(55);
+//        stack.push(10);
+//        stack.push(155);
+//        stack.push(206);
+//        stack.show();
+//        while(!stack.isEmpty()) {
+//            stack.pop();
+//        }
+//        System.out.println();
+//        stack.show();
+//        stack.add(55);
+//        stack.add(10);
+//        stack.add(155);
+//        stack.add(206);
+//        stack.show();
+
+
+
+
+
+
+        Tree<Integer> tree = new Tree<>();
+
+        tree.insertElement(10);
+        tree.insertElement(4);
+        tree.insertElement(16);
+        tree.insertElement(8);
+        tree.insertElement(6);
+        tree.insertElement(1);
+        tree.insertElement(3);
+        tree.insertElement(2);
+        tree.insertElement(12);
+        tree.insertElement(0);
+        tree.insertElement(20);
+        tree.insertElement(30);
+        tree.insertElement(11);
+        tree.insertElement(13);
+        tree.printTree();
+        tree.deleteNode(10);
+        tree.printTree();
     }
+
+
 }
+

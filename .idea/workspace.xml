@@ -6,22 +6,10 @@
   <component name="ChangeListManager">
     <list default="true" id="db61e427-6c64-4a17-83e8-41a15dd07d7e" name="Changes" comment="Final? :_( №3">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Algorithm/BinarySort.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Algorithm/BubbleSort.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Algorithm/BubbleSort.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Algorithm/CountingSort.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Algorithm/CountingSort.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Algorithm/LinearSort.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/Algorithm/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Algorithm/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Algorithm/MergeSort.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Algorithm/MergeSort.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/Algorithm/QuickSort.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Algorithm/QuickSort.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Algorithm/Util.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Algorithm/Util.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/BinarySort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/InsertionSortBinarySearch.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/BubbleSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/BubbleSort.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/CountingSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/CountingSort.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/LinearSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/InsertionSortLinearSearch.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/MergeSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/MergeSort.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/QuickSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/QuickSort.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Util.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Util.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/QuickSort.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -46,13 +34,13 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "last_opened_file_path": "C:/Users/andre/OneDrive/Робочий стіл/вмер/ООП/LabException"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/andre/OneDrive/Робочий стіл/вмер/алгоритми/Algorithm&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\andre\OneDrive\Робочий стіл\вмер\ООП\Algorithm\src" />
@@ -130,7 +118,28 @@
       <option name="project" value="LOCAL" />
       <updated>1712134879219</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Final? :_( №3">
+      <created>1714501065161</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1714501065161</updated>
+    </task>
+    <task id="LOCAL-00008" summary="Final? :_( №3">
+      <created>1714501080154</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1714501080154</updated>
+    </task>
+    <task id="LOCAL-00009" summary="Final? :_( №3">
+      <created>1714501152785</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1714501152785</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
