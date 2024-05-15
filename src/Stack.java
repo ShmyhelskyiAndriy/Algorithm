@@ -44,7 +44,7 @@ class Stack<T> {
     public static class Node<T> {
         T element;
         Node<T> next;
-        // Node<T> previous;
+
         public Node(T element) {
             this.element = element;
         }
